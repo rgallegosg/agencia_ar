@@ -1,3 +1,4 @@
+
 .container-menu .navigation-menu{
     width: 450px;
     height: 100%;
@@ -14,8 +15,10 @@
     right: 0 !important;
 }
 
-.container-menu .navigation-menu .hamburger-menu{
-    width: 35px;
+.hamburger-menu{
+    margin-top: 2rem;
+    margin-right: 6rem;
+    width: 45px;
     height: 30px;
     position: fixed;
     top: 50px;
@@ -80,17 +83,17 @@
 .line {
     margin-bottom: 4px;
     width: 85%;
-    height: 3px;
+    height: 4px;
     background-color: #ed7d31;
     transition: all 0.8s;
 }
 
 .change .line-1 {
-    transform: rotateZ(-315deg) translate(-.5px, 5px);
+    transform: rotateZ(-315deg) translate(-1px, 6px);
     background-color: white;
 }
 
 .change .line-2 {
-    transform: rotateZ(315deg) translate(-.5px, -5px);
+    transform: rotateZ(315deg) translate(-1px, -6px);
     background-color: white;
 }
