@@ -11,6 +11,10 @@
     transition: right .8s cubic-bezier(1, 0, 0, 1);
 }
 
+.change {
+    right: 0 !important;
+}
+
 .container-menu .navigation-menu .hamburger-menu{
     width: 35px;
     height: 30px;
@@ -67,10 +71,6 @@
 
 .container-menu .navigation-menu .nav-list .nav-item .nav-link:hover::after, .container-menu .navigation-menu .nav-list .nav-item .nav-link:hover::before{
     transform: scaleX(1);
-}
-
-.change {
-    right: 0;
 }
 
 .line {
